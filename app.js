@@ -32,7 +32,7 @@ function printOdds(count)
         }
     }
 }
-//printOdds(9);
+printOdds(9);
 // Exercise 2 Section
 console.log("EXERCISE 2:\n==========\n");
 function checkAge(userName = "", age = 0)
@@ -52,7 +52,7 @@ function checkAge(userName = "", age = 0)
     }
     
 }
-//checkAge();
+checkAge();
 // Exercise 3 Section
 console.log("EXERCISE 3:\n==========\n");
 function whichPlane(x, y)
@@ -88,7 +88,7 @@ function whichPlane(x, y)
         }
     }
 }
-//whichPlane(-3, 4);
+whichPlane(-3, 4);
 // Exercise 4 Section
 console.log("EXERCISE 4:\n==========\n");
 function isTriangle(sideA, sideB, sideC)
@@ -110,7 +110,7 @@ function isTriangle(sideA, sideB, sideC)
         }
     }
 }
-//isTriangle(3, 3, 3);
+isTriangle(3, 3, 3);
 // Exercise 5 Section
 console.log("EXERCISE 5:\n==========\n");
 function dataLeft(planLimit=100, day=15, usage=500)
@@ -132,3 +132,4 @@ function dataLeft(planLimit=100, day=15, usage=500)
     }
 
 }
+dataLeft();
